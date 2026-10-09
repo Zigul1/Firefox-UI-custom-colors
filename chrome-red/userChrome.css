@@ -1,0 +1,480 @@
+/* ================================================================
+   FIREFOX NOVA UI
+   Purple / Violet / Lilac -> Red (#f70707)
+   ================================================================ */
+
+* {
+	--color-violet-desaturated-0:  #fff5f5;
+	--color-violet-desaturated-10: #fdcfcf;
+	--color-violet-desaturated-20: #f9a9a9;
+	--color-violet-desaturated-30: #f9a9a9;
+	--color-violet-desaturated-40: #f70707;
+	--color-violet-desaturated-50: #c40707;
+	--color-violet-desaturated-60: #b80707;
+	--color-violet-desaturated-70: #8b0000;
+	--color-violet-desaturated-80: #6b0000;
+	--color-violet-desaturated-90: #4a0000;
+    --color-purple-0:  #fff5f5 !important;
+    --color-purple-10: #fdcfcf !important;
+    --color-purple-20: #f9a9a9 !important;
+    --color-purple-30: #f70707 !important;
+    --color-purple-40: #f9a9a9 !important;
+    --color-purple-50: #c40707 !important;
+    --color-purple-60: #b80707 !important;
+    --color-purple-70: #8b0000 !important;
+    --color-purple-80: #6b0000 !important;
+    --color-purple-90: #4a0000 !important;
+    --color-violet-0:  #fff5f5 !important;
+    --color-violet-10: #fdcfcf !important;
+    --color-violet-20: #f9a9a9 !important;
+    --color-violet-30: #f70707 !important;
+    --color-violet-40: #f9a9a9 !important;
+    --color-violet-50: #c40707 !important;
+    --color-violet-60: #b80707 !important;
+    --color-violet-70: #8b0000 !important;
+    --color-violet-80: #6b0000 !important;
+    --color-violet-90: #4a0000 !important;
+
+	--color-accent-primary: light-dark(#f70707, #f9a9a9) !important;
+	--color-accent-primary-hover: light-dark(#f9a9a9, #fdcfcf) !important;
+	--color-accent-primary-active: light-dark(#c40707, #fdcfcf) !important;
+	--color-accent-primary-selected: light-dark(#c40707, #fdcfcf) !important;
+    --background-color-information:
+        light-dark(#fdcfcf, #4a0000) !important;
+    --border-color-selected:
+        light-dark(#c40707, #f70707) !important;
+    --button-background-color-active:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-background-color-ghost-active:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-background-color-ghost-hover:
+        light-dark(#f9a9a9, #8b0000) !important;
+
+    --button-background-color-ghost-selected:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-background-color-hover:
+        light-dark(#f9a9a9, #8b0000) !important;
+
+    --button-background-color-menu-active:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-background-color-menu-hover:
+        light-dark(#f9a9a9, #8b0000) !important;
+
+    --button-background-color-menu-selected:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-background-color-primary-disabled:
+        light-dark(#8b0000, #f9a9a9) !important;
+
+    --button-background-color-selected:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-background-color-toolbar-selected:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --button-border:
+        1px solid light-dark(#c40707, #f70707) !important;
+
+    --button-border-color:
+        light-dark(#c40707, #f70707) !important;
+
+    --button-border-color-active:
+        light-dark(#c40707, #f70707) !important;
+
+    --button-border-color-disabled:
+        light-dark(#c40707, #f70707) !important;
+
+    --button-border-color-hover:
+        light-dark(#c40707, #f70707) !important;
+
+    --button-border-color-selected:
+        light-dark(#c40707, #f70707) !important;
+
+    --button-border-color-toolbar-disabled:
+        light-dark(#c40707, #f70707) !important;
+
+    --button-split-separator-background-color:
+        light-dark(#c40707, #f70707) !important;
+
+    --card-focus-outline:
+        2px solid light-dark(#c40707, #f70707) !important;
+
+    --card-header-background-color-active:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --card-header-background-color-hover:
+        light-dark(#f9a9a9, #8b0000) !important;
+
+    --download-progress-fill-color:
+        light-dark(#c40707, #f70707) !important;
+
+    --focus-outline:
+        2px solid light-dark(#c40707, #f70707) !important;
+
+    --focus-outline-color:
+        light-dark(#c40707, #f70707) !important;
+
+    --link-color:
+        light-dark(#c40707, #f70707) !important;
+
+    --link-color-active:
+        light-dark(#6b0000, #fdcfcf) !important;
+
+    --link-color-hover:
+        light-dark(#8b0000, #f9a9a9) !important;
+
+    --link-color-visited:
+        light-dark(#c40707, #f70707) !important;
+
+    --icon-color-accent-primary-desaturated:
+        light-dark(#8b0000, #f9a9a9) !important;
+
+    --icon-color-information:
+        light-dark(#c40707, #f9a9a9) !important;
+
+    --info-bar-border-color:
+        light-dark(#f9a9a9, #5a2020) !important;
+
+    --panel-banner-item-active-bgcolor:
+        light-dark(#f70707, #f9a9a9) !important;
+
+    --panel-banner-item-hover-bgcolor:
+        light-dark(#f9a9a9, #8b0000) !important;
+
+    --panel-icon-fill:
+        light-dark(#8b0000, #fdcfcf) !important;
+
+    --panel-separator-zap-gradient:
+        linear-gradient(
+            90deg,
+            #f9a9a9 0%,
+            #f70707 52.08%,
+            #c40707 100%
+        ) !important;
+
+    --promo-background-color-vibrant:
+        light-dark(#fdcfcf, #4a0000) !important;
+
+    --promo-message-text-color-vibrant:
+        light-dark(#4a0000, #fff5f5) !important;
+
+    --sidebar-divider-color:
+        light-dark(#8b0000, #fdcfcf) !important;
+
+    --sidebar-divider-image:
+        radial-gradient(
+            circle closest-side,
+            light-dark(#8b0000, #fdcfcf) 100%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle closest-side,
+            light-dark(#8b0000, #fdcfcf) 100%,
+            transparent 100%
+        ),
+        linear-gradient(
+            light-dark(#8b0000, #fdcfcf),
+            light-dark(#8b0000, #fdcfcf)
+        ) !important;
+
+    --tab-background-color-hover:
+		light-dark(
+			rgba(247, 7, 7, 0.25),
+			rgba(74, 0, 0, 0.25)
+		) !important;
+
+    --tab-border-color-accent:
+        linear-gradient(
+            96deg,
+            #f70707 20.68%,
+            #c40707 79.34%
+        ) !important;
+
+    --tab-border-color-selected-leading:
+        #f70707 !important;
+
+    --tab-dragover-outline-color:
+        light-dark(#c40707, #f70707) !important;
+
+    --tab-loading-fill:
+        light-dark(#c40707, #f70707) !important;
+
+    --tab-group-red:
+        light-dark(#c40707, #f70707) !important;
+
+    --tab-group-red-hover:
+        light-dark(#8b0000, #f9a9a9) !important;
+
+    --tab-group-red-invert:
+        light-dark(#f9a9a9, #c40707) !important;
+
+    --tab-group-red-text:
+        light-dark(#ffffff, #2a0000) !important;
+
+    --tab-group-red-text-invert:
+        light-dark(#8b0000, #ffffff) !important;
+
+    /* ============================================================
+       TABLES
+       ============================================================ */
+
+    --table-header-background-color:
+        light-dark(#c40707, #f70707) !important;
+
+    /* ============================================================
+       TOOLBAR
+       ============================================================ */
+
+    --toolbar-field-border-color-focus:
+        light-dark(#c40707, #f70707) !important;
+
+    --toolbar-field-text-color:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --toolbar-field-text-color-focus:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --toolbarbutton-icon-fill:
+        light-dark(#8b0000, #fdcfcf) !important;
+
+    --toolbarbutton-icon-fill-attention:
+        light-dark(#c40707, #f70707) !important;
+
+    /* ============================================================
+       TOOLBOX
+       ============================================================ */
+
+    --toolbox-background-color-gradient-leading:
+        light-dark(#fdcfcf, #4a0000) !important;
+
+    --toolbox-background-gradient:
+		linear-gradient(
+			96deg,
+			color-mix(
+			light-dark(#fdcfcf, #4a0000) 50%,
+			transparent
+			) 39.84%,
+			color-mix(
+			light-dark(#fff5f5, #f70707) 50%,
+			transparent
+			) 101.72%
+		) !important;
+
+    --toolbox-background-image:
+        linear-gradient(
+			96deg,
+			color-mix(
+			light-dark(#fdcfcf, #4a0000) 50%,
+			transparent
+			) 39.84%,
+			color-mix(
+			light-dark(#fff5f5, #2a0000) 50%,
+			transparent
+			) 101.72%
+		) !important;
+
+    /* ============================================================
+       TRUST PANEL
+       ============================================================ */
+
+    --trustpanel-highlight-bg:
+        light-dark(#fdcfcf, #4a0000) !important;
+
+    --trustpanel-inner-border:
+        1px solid #f9a9a9 !important;
+
+    /* ============================================================
+       URL BAR
+       ============================================================ */
+
+    --urlbar-box-background-color:
+		light-dark(
+			rgba(247, 7, 7, 0.25),
+			rgba(74, 0, 0, 0.25)
+		) !important;
+
+    --urlbar-box-background-color-active:
+        light-dark(
+            rgba(247, 7, 7, 0.6),
+            rgba(255, 245, 245, 0.6)
+        ) !important;
+
+    --urlbar-box-background-color-focus:
+        light-dark(
+            rgba(247, 7, 7, 0.25),
+            rgba(255, 245, 245, 0.25)
+        ) !important;
+
+    --urlbar-box-background-color-hover:
+		light-dark(
+			rgba(247, 7, 7, 0.4),
+			rgba(74, 0, 0, 0.4)
+		) !important;
+
+    --urlbarView-result-button-hover-background-color:
+        color-mix(
+            in srgb,
+            light-dark(#4a0000, #fdcfcf) 60%,
+            transparent
+        ) !important;
+
+    --urlbarView-result-button-selected-color:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --urlbarview-action-button-background-color:
+		light-dark(
+			rgba(247, 7, 7, 0.25),
+			rgba(74, 0, 0, 0.25)
+		) !important;
+
+    --urlbarview-action-button-background-color-hover:
+		light-dark(
+			rgba(247, 7, 7, 0.4),
+			rgba(74, 0, 0, 0.4)
+		) !important;
+
+	--urlbarview-background-color-hover:
+		light-dark(
+			rgba(247, 7, 7, 0.25),
+			rgba(74, 0, 0, 0.25)
+		) !important;
+
+    --urlbarview-background-color-selected:
+		light-dark(
+			rgba(247, 7, 7, 0.4),
+			rgba(74, 0, 0, 0.4)
+		) !important;
+
+    --urlbarview-text-color-action:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --urlbarview-text-color-secondary:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --urlbarview-text-color-selected:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+	accent-color: #f70707 !important;
+
+    --smartwindow-ask-btn-bg-image-opened-active:
+        linear-gradient(
+            83deg,
+            #c40707 0.73%,
+            #f70707 98.05%
+        ) !important;
+
+    --smartwindow-ask-btn-bg-opened-dark:
+        #4a0000 !important;
+
+    --smartwindow-ask-btn-bg-opened-hover:
+        #f9a9a9 !important;
+
+    --smartwindow-ask-btn-bg-opened-hover-dark:
+        image(
+            color-mix(
+                in srgb,
+                #4a0000 85%,
+                white
+            )
+        ) !important;
+
+    --smartwindow-ask-btn-bg-opened-hover-image:
+        image(
+            color-mix(
+                in srgb,
+                #4a0000 85%,
+                white
+            )
+        ),
+        linear-gradient(
+            83deg,
+            #c40707 0.73%,
+            #f70707 98.05%
+        ) !important;
+
+    --smartwindow-ask-btn-bg-opened-image:
+        image(#4a0000),
+        linear-gradient(
+            83deg,
+            #c40707 0.73%,
+            #f70707 98.05%
+        ) !important;
+
+    --smartwindow-ask-btn-border-color-active:
+        light-dark(#4a0000, #ffffff) !important;
+
+    --smartwindow-ask-btn-border-color-hover:
+        light-dark(#4a0000, #ffffff) !important;
+
+    --smartwindow-ask-btn-border-color-opened:
+        light-dark(#4a0000, transparent) !important;
+
+    --smartwindow-ask-btn-border-color-opened-hover:
+        light-dark(#4a0000, #ffffff) !important;
+
+    --smartwindow-ask-btn-gradient:
+        linear-gradient(
+            83deg,
+            #c40707 0.73%,
+            #f70707 98.05%
+        ) !important;
+
+    --smartwindow-ask-btn-icon-stroke-color:
+        light-dark(#f9a9a9, #f9a9a9) !important;
+
+    --smartwindow-ask-btn-text-color:
+        light-dark(#4a0000, #ffffff) !important;
+
+    --smartwindow-ask-btn-text-color-active:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --smartwindow-ask-btn-text-color-hover:
+        light-dark(#4a0000, #ffffff) !important;
+
+    --smartwindow-ask-btn-text-color-opened:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --smartwindow-ask-btn-text-color-opened-active:
+        light-dark(#4a0000, #ffffff) !important;
+
+    --smartwindow-ask-btn-text-color-opened-hover:
+        light-dark(#4a0000, #fdcfcf) !important;
+
+    --smartwindow-toggle-shadow-color:
+        light-dark(
+            color-mix(in srgb, #8b0000 20%, transparent),
+            color-mix(in srgb, #f9a9a9 20%, transparent)
+        ) !important;
+
+    /* Firefox's red notification gradient */
+
+    --short-notification-gradient:
+        #f9a9a9 !important;
+	
+    --page-nav-button-background-color-active: light-dark(
+        #f9a9a9,
+        #8b0000
+    ) !important;
+
+    --page-nav-button-background-color-hover: light-dark(
+        #fdcfcf,
+        #4a0000
+    ) !important;
+
+    --page-nav-button-background-color-selected: light-dark(
+        #f70707,
+        #c40707
+    ) !important;
+}
+
+#identity-icon-box {
+  background-color: #2a0000 !important; 
+}
+
+#identity-icon-box:hover {
+  background-color: #4a0000 !important;
+}

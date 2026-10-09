@@ -1,0 +1,364 @@
+* {
+	/* Violet palette → Vivid Green palette */
+	--color-violet-0:  #f0fff0 !important;
+	--color-violet-10: #d4ffd4 !important;
+	--color-violet-20: #a8ffa8 !important;
+	--color-violet-30: #a8ffa8 !important;
+	--color-violet-40: #02ba07 !important;
+	--color-violet-50: #028a05 !important;
+	--color-violet-60: #019506 !important;
+	--color-violet-70: #006400 !important;
+	--color-violet-80: #004d00 !important;
+	--color-violet-90: #003d00 !important;
+	
+	/* Desaturated violet palette → Vivid Green palette */
+	--color-violet-desaturated-0:  #f0fff0 !important;
+	--color-violet-desaturated-10: #d4ffd4 !important;
+	--color-violet-desaturated-20: #a8ffa8 !important;
+	--color-violet-desaturated-30: #a8ffa8 !important;
+	--color-violet-desaturated-40: #02ba07 !important;
+	--color-violet-desaturated-50: #028a05 !important;
+	--color-violet-desaturated-60: #019506 !important;
+	--color-violet-desaturated-70: #006400 !important;
+	--color-violet-desaturated-80: #004d00 !important;
+	--color-violet-desaturated-90: #003d00 !important;
+
+    /* Main accent */
+    --color-accent-primary: #02ba07 !important;
+    --color-accent-primary-hover: #a8ffa8 !important;
+    --color-accent-primary-active: #028a05 !important;
+    --color-accent-primary-selected: #028a05 !important;
+
+    /* Preferences navigation */
+    --page-nav-button-background-color-selected: #02ba07 !important;
+    --page-nav-button-background-color-hover: #004d00 !important;
+    --page-nav-button-background-color-active: #a8ffa8 !important;
+
+    /* Focus */
+    --focus-outline-color: #02ba07 !important;
+    --focus-outline: 2px solid #02ba07 !important;
+
+    /* Information/accent colors */
+    --icon-color-information: #02ba07 !important;
+
+    /* Links */
+    --link-color: #02ba07 !important;
+    --link-color-hover: #a8ffa8 !important;
+    --link-color-active: #028a05 !important;
+    --link-color-visited: #02ba07 !important;
+
+    /* Selected borders */
+    --border-color-selected: #02ba07 !important;
+
+    --button-background-color-hover:
+      light-dark(#d4ffd4, #003d00) !important;
+	
+	--color-violet-desaturated-0:  #f0fff0;
+	--color-violet-desaturated-10: #d4ffd4;
+	--color-violet-desaturated-20: #a8ffa8;
+	--color-violet-desaturated-30: #a8ffa8;
+	--color-violet-desaturated-40: #02ba07;
+	--color-violet-desaturated-50: #028a05;
+	--color-violet-desaturated-60: #019506;
+	--color-violet-desaturated-70: #006400;
+	--color-violet-desaturated-80: #004d00;
+	--color-violet-desaturated-90: #003d00;
+
+    /* Main accent */
+    --color-accent-primary: #02ba07 !important;
+    --color-accent-primary-hover: #a8ffa8 !important;
+    --color-accent-primary-active: #028a05 !important;
+    --color-accent-primary-selected: #028a05 !important;
+
+    /* Preferences navigation */
+    --page-nav-button-background-color-selected: #02ba07 !important;
+    --page-nav-button-background-color-hover: #004d00 !important;
+    --page-nav-button-background-color-active: #a8ffa8 !important;
+
+    /* Focus */
+    --focus-outline-color: #02ba07 !important;
+    --focus-outline: 2px solid #02ba07 !important;
+
+    /* Information/accent colors */
+    --icon-color-information: #02ba07 !important;
+
+    /* Links */
+    --link-color: #02ba07 !important;
+    --link-color-hover: #a8ffa8 !important;
+    --link-color-active: #028a05 !important;
+    --link-color-visited: #02ba07 !important;
+
+    /* Selected borders */
+    --border-color-selected: #02ba07 !important;
+
+    --color-violet-0:  #f0fff0 !important;
+    --color-violet-10: #d4ffd4 !important;
+    --color-violet-20: #a8ffa8 !important;
+    --color-violet-30: #a8ffa8 !important;
+    --color-violet-40: #02ba07 !important;
+    --color-violet-50: #028a05 !important;
+    --color-violet-60: #019506 !important;
+    --color-violet-70: #006400 !important;
+    --color-violet-80: #004d00 !important;
+    --color-violet-90: #003d00 !important;
+
+    --color-accent-primary:
+      light-dark(#02ba07, #a8ffa8) !important;
+
+    --color-accent-primary-hover:
+      light-dark(#a8ffa8, #d4ffd4) !important;
+
+    --color-accent-primary-active:
+      light-dark(#028a05, #d4ffd4) !important;
+
+    --color-accent-primary-selected:
+      light-dark(#028a05, #d4ffd4) !important;
+
+    /* ========================================================
+       GENERAL GREEN BACKGROUNDS
+       ======================================================== */
+
+    --background-color-information:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    --background-color-list-item-hover:
+      color-mix(
+        in srgb,
+        light-dark(#02ba07, #a8ffa8) 20%,
+        transparent
+      ) !important;
+	  
+	--lists-button-background:
+	  light-dark(#d4ffd4, #003d00) !important;
+	
+
+    /* ========================================================
+       SELECTION / FOCUS
+       ======================================================== */
+
+    --border-color-selected:
+      light-dark(#02ba07, #028a05) !important;
+
+    --focus-outline:
+      2px solid light-dark(#02ba07, #028a05) !important;
+
+    --focus-outline-color:
+      light-dark(#02ba07, #028a05) !important;
+
+    --card-focus-outline:
+      2px solid light-dark(#02ba07, #028a05) !important;
+
+    /* ========================================================
+       BUTTON BACKGROUNDS
+       ======================================================== */
+
+    --button-background-color-primary:
+      light-dark(#02ba07, #a8ffa8) !important;
+
+    --button-background-color-primary-hover:
+      light-dark(#a8ffa8, #d4ffd4) !important;
+
+    --button-background-color-primary-active:
+      light-dark(#028a05, #d4ffd4) !important;
+
+    --button-background-color-primary-selected:
+      light-dark(#028a05, #d4ffd4) !important;
+
+    --button-background-color-primary-disabled:
+      light-dark(#003d00, #006400) !important;
+
+    --button-background-color-selected:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --button-background-color-hover:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    --button-background-color-active:
+      light-dark(#a8ffa8, #006400) !important;
+
+    /* Ghost buttons */
+
+    --button-background-color-ghost-active:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --button-background-color-ghost-hover:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    --button-background-color-ghost-selected:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --button-background-color-ghost-disabled:
+      transparent !important;
+
+    /* Menu buttons */
+
+    --button-background-color-menu:
+      transparent !important;
+
+    --button-background-color-menu-active:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --button-background-color-menu-hover:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    --button-background-color-menu-selected:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --button-background-color-menu-disabled:
+      transparent !important;
+
+    /* Toolbar buttons */
+
+    --button-background-color-toolbar-selected:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --button-background-color-toolbar-active:
+		light-dark(
+			rgba(2, 186, 7, 0.4),
+			rgba(240, 255, 240, 0.4)
+		) !important;
+
+    --button-background-color-toolbar-hover:
+		light-dark(
+			rgba(2, 186, 7, 0.25),
+			rgba(240, 255, 240, 0.25)
+		) !important;
+
+    /* ========================================================
+       BUTTON BORDERS
+       ======================================================== */
+
+    --button-border:
+      1px solid light-dark(#02ba07, #028a05) !important;
+
+    --button-border-color:
+      light-dark(#02ba07, #028a05) !important;
+
+    --button-border-color-active:
+      light-dark(#02ba07, #028a05) !important;
+
+    --button-border-color-disabled:
+      light-dark(#02ba07, #028a05) !important;
+
+    --button-border-color-hover:
+      light-dark(#02ba07, #028a05) !important;
+
+    --button-border-color-selected:
+      light-dark(#02ba07, #028a05) !important;
+
+    --button-border-color-toolbar-disabled:
+      light-dark(#02ba07, #028a05) !important;
+
+    --button-split-separator-background-color:
+      light-dark(#02ba07, #028a05) !important;
+
+    /* ========================================================
+       CARDS
+       ======================================================== */
+
+    --card-header-background-color-active:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --card-header-background-color-hover:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    /* ========================================================
+       ICONS
+       ======================================================== */
+
+    --icon-color:
+      light-dark(#003d00, #f0fff0) !important;
+
+    --icon-color-accent-primary-desaturated:
+      light-dark(#006400, #a8ffa8) !important;
+
+    --icon-color-information:
+      light-dark(#02ba07, #a8ffa8) !important;
+
+    /* ========================================================
+       LINKS
+       ======================================================== */
+
+    --link-color:
+      light-dark(#02ba07, #a8ffa8) !important;
+
+    --link-color-hover:
+      light-dark(#a8ffa8, #d4ffd4) !important;
+
+    --link-color-active:
+      light-dark(#028a05, #d4ffd4) !important;
+
+    --link-color-visited:
+      light-dark(#02ba07, #a8ffa8) !important;
+
+    /* ========================================================
+       PAGE NAVIGATION / SHADOW DOM
+       ======================================================== */
+
+    --page-nav-button-background-color-active:
+      light-dark(#a8ffa8, #006400) !important;
+
+    --page-nav-button-background-color-hover:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    --page-nav-button-background-color-selected:
+      light-dark(#02ba07, #028a05) !important;
+
+    --page-nav-button-text-color-selected:
+      light-dark(#ffffff, #002d00) !important;
+
+    /* ========================================================
+       TABLES
+       ======================================================== */
+
+    --table-header-background-color:
+      light-dark(#02ba07, #028a05) !important;
+
+    /* ========================================================
+       TOOLBAR / TOOLBOX
+       ======================================================== */
+
+    --toolbar-field-border-color-focus:
+      light-dark(#02ba07, #028a05) !important;
+
+    --toolbarbutton-background-color-active:
+      light-dark(
+        rgba(2, 186, 7, 0.4),
+        rgba(240, 255, 240, 0.4)
+      ) !important;
+
+    --toolbarbutton-background-color-hover:
+      light-dark(
+        rgba(2, 186, 7, 0.25),
+        rgba(240, 255, 240, 0.25)
+      ) !important;
+
+    --toolbarbutton-icon-fill:
+      light-dark(#006400, #d4ffd4) !important;
+
+    --toolbarbutton-icon-fill-attention:
+      light-dark(#02ba07, #a8ffa8) !important;
+
+    /* ========================================================
+       TOOLBOX GRADIENT
+       ======================================================== */
+
+    --toolbox-background-color-gradient-leading:
+      light-dark(#d4ffd4, #003d00) !important;
+
+    /* ========================================================
+       GREEN-TINTED TEXT
+       ======================================================== */
+
+    --text-color:
+      light-dark(#002d00, #f0fff0) !important;
+
+    --panel-text-color:
+      light-dark(#002d00, #f0fff0) !important;
+
+    --input-text-color:
+      light-dark(#002d00, #f0fff0) !important;
+
+    --input-text-color-disabled:
+      light-dark(#002d00, #f0fff0) !important;
+ }
