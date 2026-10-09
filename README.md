@@ -1,4 +1,4 @@
-## Firefox "Nova UI" (157+) custom colors
+## Firefox "Nova UI" (v. 157+) custom colors
 
 How to use:
 - in *about:config* set *toolkit.legacyUserProfileCustomizations.stylesheets* to "true"
